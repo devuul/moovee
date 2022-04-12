@@ -12,7 +12,9 @@
     "sisteransi": "1.0.5"
   },
   "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+ 	"test": "echo \"No test specified\"" 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devuul/moovee.git"
