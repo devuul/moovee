@@ -12,10 +12,10 @@ See [LICENSE.md](./LICENSE.md) &  [DISCLAIMER.md](./DISCLAIMER.md)
 [See Dependencies](https://github.com/devuul/moovee/network/dependencies)
 
 ### Todo
-[ ] Refactoring ♻️  
-[ ] Error Handling 🐞  
-[ ] Publish to npm 📦  
-[ ] Improvements?  
+- [ ] Refactoring ♻️  
+- [ ] Error Handling 🐞  
+- [ ] Publish to npm 📦  
+- [ ] Improvements?  
 
 #### No moovee?
 Well I think it's because they are 0 peers, so no peers no moovee 😞
