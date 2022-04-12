@@ -25,3 +25,5 @@ Send a Pull Request matching the criteria:
 - Clear commit messages 🗨️ (what are you doing??)
 - description (optional) 📝 (approach/how/why) 
 - maybe some emojis? (optional) [Gitmoji 🍋](https://github.com/carloscuesta/gitmoji) (for fun)
+
+*Well, criteria wont matter if all is good, I pull*
