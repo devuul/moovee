@@ -1,7 +1,7 @@
 {
   "name": "moovee",
   "version": "1.0.0",
-  "description": "A cli tool to browse and play moovies 🐮",
+  "description": "A P2P cli tool to browse and play moovies 🐮",
   "main": "app.js",
   "dependencies": {
     "axios": "0.26.1",

@@ -1,2 +1,2 @@
 # ```moovee 🐮```
-A cli tool to browse and play moovies 🐮
+A P2P cli tool to browse and play moovees 🐮
