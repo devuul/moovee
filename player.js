@@ -15,8 +15,13 @@ function playMovie(torrent) {
 			console.log(`stderr: ${stderr}`);
 			return;
 		}
-		// 🎥 BTS: console.log(`stdout: ${stdout}`);
-		console.log('Thanks for Watching!')
+
+		// log webtorrent output on media player close
+		if (process.env.WEBTORRENT_LOG) {
+			console.log(`stdout: ${stdout}`);
+		}
+
+		console.log('🐮');
 	});
 
 }
