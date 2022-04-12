@@ -12,9 +12,7 @@
     "sisteransi": "1.0.5"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "node app.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devuul/moovee.git"
