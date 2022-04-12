@@ -1,6 +1,6 @@
-const ASK = require('./ask');
-const YTS_API = require('./api');
-const PLAYER = require('./player');
+const ASK = require('./lib/ask');
+const YTS_API = require('./lib/api');
+const PLAYER = require('./lib/player');
 
 // ask user for movie query
 ASK.searchQuery()
