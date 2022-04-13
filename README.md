@@ -46,7 +46,8 @@ moovee -p vlc -l
 - [ ] Improvements?  
 
 #### No moovee?
-Well I think it's because they are 0 peers, so no peers no moovee 😞
+Well I think it's because they are 0 peers, so no peers no moovee 😞  
+Webtorrent handles all the playing and streaming, you can throw in the `-l` argument to see what webtorrent is doing
 
 ### Contributing
 Send a Pull Request matching the criteria: 
