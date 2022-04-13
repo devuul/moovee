@@ -6,6 +6,9 @@ A (Node based) P2P cli tool to browse and play moovees 🐮
 ### License & Disclaimer
 See [LICENSE.md](./LICENSE.md) &  [DISCLAIMER.md](./DISCLAIMER.md)
 
+## Required Dependencies
+- webtorrent - https://github.com/webtorrent/webtorrent-cli
+
 ## Installing
 ``` bash
 npm i moovee -g
