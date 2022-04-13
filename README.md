@@ -6,6 +6,20 @@ A (Node based) P2P cli tool to browse and play moovees 🐮
 ### License & Disclaimer
 See [LICENSE.md](./LICENSE.md) &  [DISCLAIMER.md](./DISCLAIMER.md)
 
+## Installing
+``` bash
+npm i moovee -g
+```
+
+*Option 2 : Clone & Install*
+``` bash
+# clone
+git clone https://github.com/devuul/moovee/
+
+# install globally
+npm i ./moovee -g
+```
+
 ### Tools Used
 - Webtorrent
 - Prompts
@@ -16,7 +30,7 @@ See [LICENSE.md](./LICENSE.md) &  [DISCLAIMER.md](./DISCLAIMER.md)
 ### Todo
 - [ ] Refactoring ♻️  
 - [ ] Error Handling 🐞  
-- [ ] Publish to npm 📦  
+- [x] Publish to npm 📦  
 - [ ] Improvements?  
 
 #### No moovee?
