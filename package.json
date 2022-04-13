@@ -15,6 +15,9 @@
   "scripts": {
     "test": "echo \"No test specified\""
   },
+  "bin": {
+     "moovee": "./app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devuul/moovee.git"

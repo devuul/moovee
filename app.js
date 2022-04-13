@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const ASK = require('./lib/ask');
 const YTS_API = require('./lib/api');
 const PLAYER = require('./lib/player');
