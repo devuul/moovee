@@ -2,6 +2,33 @@
 const ASK = require('./lib/ask');
 const YTS_API = require('./lib/api');
 const PLAYER = require('./lib/player');
+const yargs = require('yargs');
+const { bold } = require('kleur');
+
+// arguments
+const options = yargs
+.option("log", {
+    alias: "l",
+    describe: "show webtorrent log output",
+	demandOption: false
+})
+.option("p", {
+	alias: "player",
+	describe: "Media player to play video (mpv, vlc)",
+	type: "string",
+	demandOption: true
+})
+.usage("Usage: -p <player>")
+.argv
+
+const PLAYER_OPTION = options.player;
+const SHOW_LOG = options.log;
+
+// Close if no player has been specified
+if (PLAYER_OPTION === '') {
+	console.log(bold().red('please specify player'));
+	process.exit(1);
+}
 
 // ask user for movie query
 ASK.searchQuery()
@@ -29,9 +56,9 @@ ASK.searchQuery()
 			ASK.chooseQuality(movieTorrents)
 			.then(chosen_quality => {		
 				// play the movie with default player
-				console.log(`\nPlaying movie ${chosen_movie.title_long} at ${chosen_quality.quality}...\n🐮 Waiting...`);
+				console.log(bold().yellow(`\nPlaying movie ${chosen_movie.title_long} at ${chosen_quality.quality}...\n🐮 Waiting...`));
 				const torrentURL = chosen_quality.url; 
-				PLAYER.playMovie(torrentURL);
+				PLAYER.playMovie(torrentURL, PLAYER_OPTION, SHOW_LOG);
 			})
 		})
 	})
