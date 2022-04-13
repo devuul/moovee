@@ -9,9 +9,9 @@
     "follow-redirects": "1.14.9",
     "kleur": "3.0.3",
     "prompts": "2.4.2",
-    "sisteransi": "1.0.5"
+    "sisteransi": "1.0.5",
+    "yargs": "^17.4.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"No test specified\""
   },
