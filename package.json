@@ -5,7 +5,6 @@
   "main": "app.js",
   "dependencies": {
     "axios": "0.26.1",
-    "dotenv": "16.0.0",
     "follow-redirects": "1.14.9",
     "kleur": "3.0.3",
     "prompts": "2.4.2",
