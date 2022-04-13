@@ -35,6 +35,7 @@ moovee -p vlc -l
 - Webtorrent
 - Prompts
 - Axios
+- Kleur
 
 [See Dependencies](https://github.com/devuul/moovee/network/dependencies)
 
