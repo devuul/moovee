@@ -20,6 +20,17 @@ git clone https://github.com/devuul/moovee/
 npm i ./moovee -g
 ```
 
+## Usage
+``` bash
+# play whatever moovee that will be selected with vlc
+moovee -p vlc
+```
+
+``` bash
+# -l argument show the webtorrent output after closing media player 
+moovee -p vlc -l
+```
+
 ### Tools Used
 - Webtorrent
 - Prompts
