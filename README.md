@@ -1,7 +1,7 @@
 # ```moovee 🐮```
 A (Node based) P2P cli tool to browse and play moovees 🐮
 
-***Note:** All here is also on [YTS](https://yts.mx/)*
+***Note:** All torrents are fetched from [YTS](https://yts.mx/)*
 
 ### License & Disclaimer
 See [LICENSE.md](./LICENSE.md) &  [DISCLAIMER.md](./DISCLAIMER.md)
