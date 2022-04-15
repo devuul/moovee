@@ -46,7 +46,8 @@ moovee -p vlc -l
 - [ ] Refactoring ♻️  
 - [ ] Error Handling 🐞  
 - [x] Publish to npm 📦  
-- [ ] Improvements?  
+- [ ] Improvements?
+- [ ] Switch to [Limetorrent](https://www.limetorrents.pro/) Or [1337x](https://1337x.to/cat/Movies/1/) as source
 
 #### No moovee?
 Well I think it's because they are 0 peers, so no peers no moovee 😞  
